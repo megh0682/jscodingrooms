@@ -1,0 +1,77 @@
+body {
+   background-image: url('https://images.freecreatives.com/wp-content/uploads/2015/04/3336-grey-texture-1920x1080-abstract-wallpaper.gif'); 
+   overflow: scroll;
+} 
+
+
+h1{
+   font-family: Courier New, Courier, monospace;
+}
+
+.App {
+ font-family: Courier New, Courier, monospace;
+
+} 
+.App-body {
+   color: rgba(255, 255, 255, 0.9);
+   margin-left: 10px;
+   margin-right:20px; 
+   padding-right:20px;
+   padding-left:40px;
+} 
+
+.App-logo {
+ /* animation: App-logo-spin infinite 20s linear;*/
+  animation: logo-rotate 2s both infinite;
+  height: 80px;
+  
+}
+
+.App-header {
+  background-image:url('https://media.giphy.com/media/xTiTnxpQ3ghPiB2Hp6/giphy.gif');
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.9);
+  font-family:Courier New, Courier, monospace;
+  font-size: 1.5em;
+  font-style: italic;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+}
+.headerText{
+  color:darkorange;
+  font-family:Courier New, Courier, monospace;
+  font-style: italic;
+  font-size: 1.5em;
+  background-color:black;
+}
+
+.menuItem{
+ font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+  font-style: italic;
+  font-size: 1.5em;
+}
+.bigFont{
+  font-size: 24px;
+}
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+@keyframes logo-rotate {
+  from{
+    transform: rotateY(0);
+  }
+  50% {
+    transform: rotateY(180deg);
+  }
+   to {
+    transform: rotateY(0);
+  }
+}
