@@ -23,7 +23,7 @@ app.use('/api/users', users);
 app.use('/api/auth', auth);
 
 if (true) {
-  app.use(express.static(path.join(__dirname,'./build')));
+  app.use(express.static(path.join(__dirname,'build')));
  
 }else{
   app.use(express.static("./public"));
